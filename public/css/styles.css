@@ -1,0 +1,112 @@
+/* public/css/styles.css */
+
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.weather-card {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.weather-icon {
+    font-size: 3rem;
+    color: #667eea;
+}
+
+.temp-display {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #667eea;
+    line-height: 1;
+}
+
+.weather-icon-large {
+    width: 150px;
+    height: 150px;
+    filter: drop-shadow(0 5px 15px rgba(0,0,0,0.2));
+}
+
+.city-name {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.weather-description {
+    font-size: 1.3rem;
+    color: #666;
+    text-transform: capitalize;
+}
+
+.stat-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.stat-icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.stat-value {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+.btn-back {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: transform 0.2s;
+}
+
+.btn-back:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+    color: white;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 15px 0;
+    text-align: center;
+}
+
+.footer-text {
+    color: white;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.brand-name {
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
